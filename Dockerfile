@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM debian:buster
 
 RUN apt-get update -y -q && \
 apt-get install software-properties-common dirmngr -y && \
